@@ -8,7 +8,7 @@ player.title('Baby Player')
 player.geometry('640x840')
 
 
-os.chdir("D:/VA - Baby Driver (2017)")
+os.chdir("D:/VA - Baby Driver (2017)") #change the current working directory to the one, which contains your songs to play
 print(os.getcwd)
 songlist = os.listdir()
 
